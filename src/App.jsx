@@ -6,6 +6,7 @@ import Card from './pages/Card/Card'
 import PlaceOrder from './pages/placeorder/PlaceOrder'
 import Footer from './components/footer/Footer'
 import Login from './components/login/Login'
+import ExploreMenu from './components/Exploremenu/ExploreMenu'
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false)
@@ -18,6 +19,7 @@ const App = () => {
         <Navbar setShowLogin={setShowLogin} setSearchQuery={setSearchQuery} /> {/* only here */}
         <Routes>
           <Route path='/' element={<Home searchQuery={searchQuery} setSearchQuery={setSearchQuery} />} />
+          <Route path='/explore' element={<ExploreMenu/>} />
           <Route path='/card' element={<Card />} />
           <Route path='/order' element={<PlaceOrder />} />
         </Routes>
