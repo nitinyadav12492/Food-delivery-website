@@ -2,7 +2,7 @@
     height: 75vh;
     width: 100%;
     margin: 30px auto;
-    background-image: url("/john.jpg"); /* public folder */
+    background-image: url("/nitin1.jpg"); /* public folder */
     background-repeat: no-repeat;
     background-size: cover;        /* 🔥 important */
     background-position: center;   /* 🔥 important */
@@ -24,13 +24,13 @@
 
 .header-contents h2 {
     font-weight: 500;
-    color: white;
+    color: rgb(250, 245, 245);
     font-size: max(4.5vw, 22px);
 }
 
 .header-contents p {
-    color: white;
-    font-size: 1vw;
+    color: rgba(238, 241, 238, 0.874);
+    font-size: 1.2vw;
 }
 
 .header-contents button {
