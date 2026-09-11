@@ -137,7 +137,7 @@ export const food_list = [
         _id: "3",
         name: "Clover Salad",
         image: food_3,
-        price: 2,
+        price: 200,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
     }, {
@@ -179,7 +179,7 @@ export const food_list = [
         _id: "9",
         name: "Ripple Ice Cream",
         image: food_9,
-        price: 9,
+        price: 90,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Deserts"
     }, {
@@ -258,21 +258,21 @@ export const food_list = [
         _id: "20",
         name: "Sliced Cake",
         image: food_20,
-        price: 15,
+        price: 150,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Cake"
     }, {
         _id: "21",
         name: "Garlic Mushroom ",
         image: food_21,
-        price: 14,
+        price: 140,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pure Veg"
     }, {
         _id: "22",
         name: "Fried Cauliflower",
         image: food_22,
-        price: 22,
+        price: 220,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pure Veg"
     }, {
@@ -286,7 +286,7 @@ export const food_list = [
         _id: "24",
         name: "Rice Zucchini",
         image: food_24,
-        price: 12,
+        price: 120,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pure Veg"
     },
